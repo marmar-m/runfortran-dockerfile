@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    libgfortran3  && \
+    libgfortran4      && \
     # Perform cleanup \
     rm -rf /var/lib/apt/lists/* 
 
